@@ -9,29 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ViewControllerLifeCycle/ViewController.m"
-            timestampString = "430782998.918912"
+            filePath = "ViewControllerLifeCycle/PSRAlotOfControlsViewController.m"
+            timestampString = "430788076.087831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "-initWithNibName:bundle:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ViewControllerLifeCycle/ViewController.m"
-            timestampString = "430783000.646187"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-initWithCoder:"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-createeViewPragrammatically"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

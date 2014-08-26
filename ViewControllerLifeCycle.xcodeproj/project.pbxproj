@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		FEEB950519AD38F00072B95C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950419AD38F00072B95C /* main.m */; };
 		FEEB950819AD38F00072B95C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950719AD38F00072B95C /* AppDelegate.m */; };
-		FEEB950B19AD38F00072B95C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950A19AD38F00072B95C /* ViewController.m */; };
+		FEEB950B19AD38F00072B95C /* PSRAlotOfControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950A19AD38F00072B95C /* PSRAlotOfControlsViewController.m */; };
 		FEEB950E19AD38F00072B95C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEB950C19AD38F00072B95C /* Main.storyboard */; };
 		FEEB951019AD38F00072B95C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEB950F19AD38F00072B95C /* Images.xcassets */; };
 		FEEB951C19AD38F00072B95C /* ViewControllerLifeCycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB951B19AD38F00072B95C /* ViewControllerLifeCycleTests.m */; };
+		FEF9FD2219AD441900005E69 /* pic1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEF9FD1D19AD441900005E69 /* pic1.jpeg */; };
+		FEF9FD2319AD441900005E69 /* pic2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEF9FD1E19AD441900005E69 /* pic2.jpeg */; };
+		FEF9FD2419AD441900005E69 /* pic3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEF9FD1F19AD441900005E69 /* pic3.jpeg */; };
+		FEF9FD2519AD441900005E69 /* pic4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEF9FD2019AD441900005E69 /* pic4.jpeg */; };
+		FEF9FD2619AD441900005E69 /* pic5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEF9FD2119AD441900005E69 /* pic5.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +36,18 @@
 		FEEB950419AD38F00072B95C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEEB950619AD38F00072B95C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEEB950719AD38F00072B95C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FEEB950919AD38F00072B95C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FEEB950A19AD38F00072B95C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEEB950919AD38F00072B95C /* PSRAlotOfControlsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSRAlotOfControlsViewController.h; sourceTree = "<group>"; };
+		FEEB950A19AD38F00072B95C /* PSRAlotOfControlsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSRAlotOfControlsViewController.m; sourceTree = "<group>"; };
 		FEEB950D19AD38F00072B95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEEB950F19AD38F00072B95C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FEEB951519AD38F00072B95C /* ViewControllerLifeCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerLifeCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEB951A19AD38F00072B95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEEB951B19AD38F00072B95C /* ViewControllerLifeCycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLifeCycleTests.m; sourceTree = "<group>"; };
+		FEF9FD1D19AD441900005E69 /* pic1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpeg; sourceTree = SOURCE_ROOT; };
+		FEF9FD1E19AD441900005E69 /* pic2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpeg; sourceTree = SOURCE_ROOT; };
+		FEF9FD1F19AD441900005E69 /* pic3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpeg; sourceTree = SOURCE_ROOT; };
+		FEF9FD2019AD441900005E69 /* pic4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpeg; sourceTree = SOURCE_ROOT; };
+		FEF9FD2119AD441900005E69 /* pic5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic5.jpeg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +91,10 @@
 			children = (
 				FEEB950619AD38F00072B95C /* AppDelegate.h */,
 				FEEB950719AD38F00072B95C /* AppDelegate.m */,
-				FEEB950919AD38F00072B95C /* ViewController.h */,
-				FEEB950A19AD38F00072B95C /* ViewController.m */,
+				FEEB950919AD38F00072B95C /* PSRAlotOfControlsViewController.h */,
+				FEEB950A19AD38F00072B95C /* PSRAlotOfControlsViewController.m */,
 				FEEB950C19AD38F00072B95C /* Main.storyboard */,
+				FEF9FD2719AD441F00005E69 /* images */,
 				FEEB950F19AD38F00072B95C /* Images.xcassets */,
 				FEEB950219AD38F00072B95C /* Supporting Files */,
 			);
@@ -114,6 +125,18 @@
 				FEEB951A19AD38F00072B95C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF9FD2719AD441F00005E69 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FEF9FD1D19AD441900005E69 /* pic1.jpeg */,
+				FEF9FD1E19AD441900005E69 /* pic2.jpeg */,
+				FEF9FD1F19AD441900005E69 /* pic3.jpeg */,
+				FEF9FD2019AD441900005E69 /* pic4.jpeg */,
+				FEF9FD2119AD441900005E69 /* pic5.jpeg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +221,11 @@
 			files = (
 				FEEB950E19AD38F00072B95C /* Main.storyboard in Resources */,
 				FEEB951019AD38F00072B95C /* Images.xcassets in Resources */,
+				FEF9FD2219AD441900005E69 /* pic1.jpeg in Resources */,
+				FEF9FD2419AD441900005E69 /* pic3.jpeg in Resources */,
+				FEF9FD2319AD441900005E69 /* pic2.jpeg in Resources */,
+				FEF9FD2519AD441900005E69 /* pic4.jpeg in Resources */,
+				FEF9FD2619AD441900005E69 /* pic5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEEB950B19AD38F00072B95C /* ViewController.m in Sources */,
+				FEEB950B19AD38F00072B95C /* PSRAlotOfControlsViewController.m in Sources */,
 				FEEB950819AD38F00072B95C /* AppDelegate.m in Sources */,
 				FEEB950519AD38F00072B95C /* main.m in Sources */,
 			);
@@ -406,6 +434,7 @@
 				FEEB952119AD38F00072B95C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEEB952219AD38F00072B95C /* Build configuration list for PBXNativeTarget "ViewControllerLifeCycleTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +443,7 @@
 				FEEB952419AD38F00072B95C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
