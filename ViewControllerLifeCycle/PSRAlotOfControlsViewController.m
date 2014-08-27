@@ -13,6 +13,8 @@
 @property (nonatomic, strong) UIColor *labelNearButtonColor;
 @end
 
+#warning random color category
+
 @implementation PSRAlotOfControlsViewController
 
 #pragma mark - properties overload -
@@ -49,7 +51,7 @@
     self = [super initWithCoder:aDecoder];
     //load from storybord
     NSLog(@"%s\nload from storyboard started",__PRETTY_FUNCTION__);
-    NSLog(@"no outlets are available. For Example image Outlet is currently: %@",self.image);
+    NSLog(@"no outlets are available. For Example image Outlet is currently: %@",self.imageView);
     NSLog(@"do not call self.view from here as it will forse viewController to load view in memory");
     NSLog(@"To check if view is loaded, call: self.isViewLoaded");
     return self;
@@ -73,7 +75,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"%s\nnow outlets are accessable. Get image description: %@",__PRETTY_FUNCTION__, self.image);
+    NSLog(@"%s\nnow outlets are accessable. Get image description: %@",__PRETTY_FUNCTION__, self.imageView);
     NSLog(@"This is a start point to make some tasks wich requers a lot of computation. Do not calculate layout here. Views could be configured in other frames on next lifecycle stage");
     [self setup];
     //The most computation intensitive tasks are performed here
@@ -92,7 +94,7 @@
     
     [self animateSomething];
     
-    NSLog(@"self image: %@",self.image);
+    NSLog(@"self image: %@",self.imageView);
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -131,7 +133,8 @@
     CGRect viewFrame = self.changeImageButton.frame;
     UIView *aView = [[UIView alloc] initWithFrame: viewFrame];
     aView.backgroundColor = [UIColor yellowColor];
-    [self.view addSubview:aView];}
+    [self.view addSubview:aView];
+}
 
 #pragma mark - actions -
 

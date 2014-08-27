@@ -71,6 +71,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFU-uT-tvr">
+                                <rect key="frame" x="233" y="126" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -78,12 +85,11 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="aSwitch" destination="w0g-aU-Vzz" id="2Mb-Ed-rns"/>
+                        <outlet property="aSwitch" destination="w0g-aU-Vzz" id="aas-cs-spg"/>
                         <outlet property="addTextButton" destination="mFv-US-d2T" id="xuZ-cv-he2"/>
                         <outlet property="changeImageButton" destination="crT-D1-oCz" id="7rb-Jx-yz2"/>
-                        <outlet property="image" destination="M2f-e5-hw2" id="zOr-q0-M8N"/>
+                        <outlet property="imageView" destination="M2f-e5-hw2" id="bkr-jO-cZP"/>
                         <outlet property="textView" destination="9OG-t4-HyV" id="ikB-sk-XMN"/>
-                        <outlet property="useRandomColorLabel" destination="WdD-dZ-FZi" id="dFg-OH-yS6"/>
                         <segue destination="7gh-40-cHG" kind="push" identifier="green" id="1qU-kx-607"/>
                         <segue destination="ZyL-Cb-GT3" kind="push" identifier="red" id="um0-U4-epg"/>
                     </connections>
@@ -109,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PzO-Bg-vkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="995" y="-436"/>
+            <point key="canvasLocation" x="1010" y="-346"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iD8-T2-f5h">
@@ -128,7 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbe-F9-95R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="997" y="152"/>
+            <point key="canvasLocation" x="995" y="400"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0MJ-Sv-iDg">
