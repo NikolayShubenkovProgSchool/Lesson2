@@ -9,6 +9,8 @@
 #import "PSRAlotOfControlsViewController.h"
 #import "UIColor+PSRRandomColors.h"
 
+#import "PSRNamesViewController.h"
+
 @interface PSRAlotOfControlsViewController ()
 @property (nonatomic, strong) NSArray *images;
 @property (nonatomic, strong) UIColor *labelNearButtonColor;
@@ -80,6 +82,14 @@
     NSLog(@"This is a start point to make some tasks wich requers a lot of computation. Do not calculate layout here. Views could be configured in other frames on next lifecycle stage");
     [self setup];
     //The most computation intensitive tasks are performed here
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue destinationViewController] isKindOfClass:[PSRNamesViewController class]]){
+        PSRNamesViewController *namesVC = segue.destinationViewController;
+        namesVC.strings = @[@"fasfasfsa",@"afsfassasa sasf sadf adsf", @"afss ds df ad f", @"fasf sf s", @"fafsafassfsfsa"];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated

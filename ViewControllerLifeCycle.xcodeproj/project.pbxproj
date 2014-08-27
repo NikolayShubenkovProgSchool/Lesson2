@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FEDA0A3F19AE529200BAD59B /* UIColor+PSRRandomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA0A3E19AE529200BAD59B /* UIColor+PSRRandomColors.m */; };
+		FEDA0A4219AE57A400BAD59B /* PSRNamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA0A4119AE57A400BAD59B /* PSRNamesViewController.m */; };
+		FEDA0A4519AE598100BAD59B /* PSRCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA0A4419AE598100BAD59B /* PSRCustomTableViewCell.m */; };
 		FEEB950519AD38F00072B95C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950419AD38F00072B95C /* main.m */; };
 		FEEB950819AD38F00072B95C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950719AD38F00072B95C /* AppDelegate.m */; };
 		FEEB950B19AD38F00072B95C /* PSRAlotOfControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950A19AD38F00072B95C /* PSRAlotOfControlsViewController.m */; };
@@ -34,6 +36,10 @@
 /* Begin PBXFileReference section */
 		FEDA0A3D19AE529200BAD59B /* UIColor+PSRRandomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PSRRandomColors.h"; sourceTree = "<group>"; };
 		FEDA0A3E19AE529200BAD59B /* UIColor+PSRRandomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PSRRandomColors.m"; sourceTree = "<group>"; };
+		FEDA0A4019AE57A400BAD59B /* PSRNamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRNamesViewController.h; sourceTree = "<group>"; };
+		FEDA0A4119AE57A400BAD59B /* PSRNamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRNamesViewController.m; sourceTree = "<group>"; };
+		FEDA0A4319AE598100BAD59B /* PSRCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRCustomTableViewCell.h; sourceTree = "<group>"; };
+		FEDA0A4419AE598100BAD59B /* PSRCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRCustomTableViewCell.m; sourceTree = "<group>"; };
 		FEEB94FF19AD38F00072B95C /* ViewControllerLifeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerLifeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEB950319AD38F00072B95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEEB950419AD38F00072B95C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +80,10 @@
 		FEEB94F619AD38F00072B95C = {
 			isa = PBXGroup;
 			children = (
+				FEDA0A4319AE598100BAD59B /* PSRCustomTableViewCell.h */,
+				FEDA0A4419AE598100BAD59B /* PSRCustomTableViewCell.m */,
+				FEDA0A4019AE57A400BAD59B /* PSRNamesViewController.h */,
+				FEDA0A4119AE57A400BAD59B /* PSRNamesViewController.m */,
 				FEDA0A3D19AE529200BAD59B /* UIColor+PSRRandomColors.h */,
 				FEDA0A3E19AE529200BAD59B /* UIColor+PSRRandomColors.m */,
 				FEEB950119AD38F00072B95C /* ViewControllerLifeCycle */,
@@ -249,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDA0A3F19AE529200BAD59B /* UIColor+PSRRandomColors.m in Sources */,
+				FEDA0A4219AE57A400BAD59B /* PSRNamesViewController.m in Sources */,
+				FEDA0A4519AE598100BAD59B /* PSRCustomTableViewCell.m in Sources */,
 				FEEB950B19AD38F00072B95C /* PSRAlotOfControlsViewController.m in Sources */,
 				FEEB950819AD38F00072B95C /* AppDelegate.m in Sources */,
 				FEEB950519AD38F00072B95C /* main.m in Sources */,
