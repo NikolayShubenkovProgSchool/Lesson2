@@ -94,6 +94,7 @@
                         <outlet property="changeImageButton" destination="crT-D1-oCz" id="7rb-Jx-yz2"/>
                         <outlet property="editedTextView" destination="S4L-dt-Zbm" id="9H0-Es-yMj"/>
                         <outlet property="imageView" destination="M2f-e5-hw2" id="bkr-jO-cZP"/>
+                        <outlet property="switchControl" destination="w0g-aU-Vzz" id="tHr-PK-6Ro"/>
                         <outlet property="textView" destination="9OG-t4-HyV" id="ikB-sk-XMN"/>
                         <segue destination="7gh-40-cHG" kind="push" identifier="green" id="1qU-kx-607"/>
                         <segue destination="ZyL-Cb-GT3" kind="push" identifier="red" id="um0-U4-epg"/>

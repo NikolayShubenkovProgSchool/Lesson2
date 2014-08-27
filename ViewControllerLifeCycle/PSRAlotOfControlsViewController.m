@@ -170,7 +170,9 @@
         return;
     }
     self.editedTextView.text = [self.editedTextView.text stringByAppendingString:textToAdd];
-    self.editedTextView.textColor = [UIColor psr_randomColor];
+    if (self.switchControl.on){
+        self.editedTextView.textColor = [UIColor psr_randomColor];
+    }
 }
 
 #pragma mark - UITextView Delegate

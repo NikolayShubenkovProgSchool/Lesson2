@@ -21,6 +21,7 @@
 - (void)changeImageButtonPresed;
 - (IBAction)changeImageButtonTouchUp:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UITextView *editedTextView;
+@property (weak, nonatomic) IBOutlet UISwitch *switchControl;
 
 @end
 
