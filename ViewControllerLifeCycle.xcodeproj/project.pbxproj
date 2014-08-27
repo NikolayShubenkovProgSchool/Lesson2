@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEDA0A3F19AE529200BAD59B /* UIColor+PSRRandomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA0A3E19AE529200BAD59B /* UIColor+PSRRandomColors.m */; };
 		FEEB950519AD38F00072B95C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950419AD38F00072B95C /* main.m */; };
 		FEEB950819AD38F00072B95C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950719AD38F00072B95C /* AppDelegate.m */; };
 		FEEB950B19AD38F00072B95C /* PSRAlotOfControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB950A19AD38F00072B95C /* PSRAlotOfControlsViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FEDA0A3D19AE529200BAD59B /* UIColor+PSRRandomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PSRRandomColors.h"; sourceTree = "<group>"; };
+		FEDA0A3E19AE529200BAD59B /* UIColor+PSRRandomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PSRRandomColors.m"; sourceTree = "<group>"; };
 		FEEB94FF19AD38F00072B95C /* ViewControllerLifeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerLifeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEB950319AD38F00072B95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEEB950419AD38F00072B95C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 		FEEB94F619AD38F00072B95C = {
 			isa = PBXGroup;
 			children = (
+				FEDA0A3D19AE529200BAD59B /* UIColor+PSRRandomColors.h */,
+				FEDA0A3E19AE529200BAD59B /* UIColor+PSRRandomColors.m */,
 				FEEB950119AD38F00072B95C /* ViewControllerLifeCycle */,
 				FEEB951819AD38F00072B95C /* ViewControllerLifeCycleTests */,
 				FEEB950019AD38F00072B95C /* Products */,
@@ -243,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDA0A3F19AE529200BAD59B /* UIColor+PSRRandomColors.m in Sources */,
 				FEEB950B19AD38F00072B95C /* PSRAlotOfControlsViewController.m in Sources */,
 				FEEB950819AD38F00072B95C /* AppDelegate.m in Sources */,
 				FEEB950519AD38F00072B95C /* main.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PSRAlotOfControlsViewController : UIViewController
+@interface PSRAlotOfControlsViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *addTextButton;
 @property (weak, nonatomic) IBOutlet UIButton *changeImageButton;

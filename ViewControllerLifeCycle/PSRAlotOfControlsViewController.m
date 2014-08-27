@@ -7,6 +7,7 @@
 //
 
 #import "PSRAlotOfControlsViewController.h"
+#import "UIColor+PSRRandomColors.h"
 
 @interface PSRAlotOfControlsViewController ()
 @property (nonatomic, strong) NSArray *images;
@@ -126,6 +127,12 @@
 - (void)setup
 {
     [self createeViewPragrammatically];
+    [self setupTextInput];
+}
+
+- (void)setupTextInput
+{
+    self.textView.delegate = self;
 }
 
 - (void)createeViewPragrammatically
@@ -158,7 +165,21 @@
 
 - (IBAction)addTextButtonPressed:(UIButton *)sender
 {
-    
+    NSString *textToAdd = self.textView.text;
+    if (textToAdd.length == 0){
+        return;
+    }
+    self.editedTextView.text = [self.editedTextView.text stringByAppendingString:textToAdd];
+    self.editedTextView.textColor = [UIColor psr_randomColor];
+}
+
+#pragma mark - UITextView Delegate
+
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
 }
 
 #pragma mark - private -
