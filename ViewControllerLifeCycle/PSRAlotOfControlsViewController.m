@@ -169,10 +169,26 @@
     if (textToAdd.length == 0){
         return;
     }
-    self.editedTextView.text = [self.editedTextView.text stringByAppendingString:textToAdd];
-    if (self.switchControl.on){
-        self.editedTextView.textColor = [UIColor psr_randomColor];
+    
+    UIColor *stringColor = self.switchControl.on ? [UIColor psr_randomColor] : [UIColor blackColor];
+    self.editedTextView.attributedText = [self attributedString:self.editedTextView.attributedText
+                                                 byAddingString:textToAdd
+                                                 withAttributes:@{
+                                                                  NSForegroundColorAttributeName : stringColor
+                                                                  }];
+}
+
+- (NSAttributedString *)attributedString:(NSAttributedString *)attributedString byAddingString:(NSString *)string withAttributes:(NSDictionary *)attributes
+{
+    if(!string){
+        return attributedString;;
     }
+    NSMutableAttributedString *referenceString = [attributedString mutableCopy];
+    if (!referenceString){
+        referenceString = [NSMutableAttributedString new];
+    }
+    [referenceString appendAttributedString:[[NSAttributedString alloc]initWithString:string attributes:attributes]];
+    return [referenceString copy];
 }
 
 #pragma mark - UITextView Delegate

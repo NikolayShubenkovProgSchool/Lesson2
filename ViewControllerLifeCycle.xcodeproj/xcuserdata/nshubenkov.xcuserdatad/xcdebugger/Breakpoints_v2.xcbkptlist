@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ViewControllerLifeCycle/PSRAlotOfControlsViewController.m"
-            timestampString = "430854990.28516"
+            timestampString = "430855772.834977"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
             landmarkName = "-changeImageButtonTouchUp:"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ViewControllerLifeCycle/PSRAlotOfControlsViewController.m"
-            timestampString = "430854990.28516"
+            timestampString = "430855669.02316"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "182"
-            endingLineNumber = "182"
-            landmarkName = "-textFieldShouldReturn:"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "-attributedString:byAddingString:withAttributes:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
