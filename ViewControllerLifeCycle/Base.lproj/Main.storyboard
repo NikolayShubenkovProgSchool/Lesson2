@@ -34,7 +34,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M2f-e5-hw2">
+                            <imageView userInteractionEnabled="NO" alpha="0.39999999999999963" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M2f-e5-hw2">
                                 <rect key="frame" x="16" y="88" width="186" height="92"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="useRandomColor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdD-dZ-FZi">
@@ -55,8 +55,12 @@
                                 <rect key="frame" x="210" y="88" width="93" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="changeImage">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeImageButtonPressedDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Mf4-vT-XKB"/>
+                                    <action selector="changeImageButtonTouchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s38-Mx-KvG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spx-tw-2Vf">
                                 <rect key="frame" x="29" y="430" width="46" height="30"/>
@@ -88,6 +92,7 @@
                         <outlet property="aSwitch" destination="w0g-aU-Vzz" id="aas-cs-spg"/>
                         <outlet property="addTextButton" destination="mFv-US-d2T" id="xuZ-cv-he2"/>
                         <outlet property="changeImageButton" destination="crT-D1-oCz" id="7rb-Jx-yz2"/>
+                        <outlet property="editedTextView" destination="S4L-dt-Zbm" id="9H0-Es-yMj"/>
                         <outlet property="imageView" destination="M2f-e5-hw2" id="bkr-jO-cZP"/>
                         <outlet property="textView" destination="9OG-t4-HyV" id="ikB-sk-XMN"/>
                         <segue destination="7gh-40-cHG" kind="push" identifier="green" id="1qU-kx-607"/>

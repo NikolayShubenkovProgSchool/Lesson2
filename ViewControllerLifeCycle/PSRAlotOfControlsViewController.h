@@ -16,9 +16,11 @@
 //@property (weak, nonatomic) IBOutlet UILabel *useRandomColorLabel;
 @property (weak, nonatomic) IBOutlet UITextField *textView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
-
+- (IBAction)changeImageButtonPressedDown:(id)sender;
 - (IBAction)addTextButtonPressed:(UIButton *)sender;
 - (void)changeImageButtonPresed;
+- (IBAction)changeImageButtonTouchUp:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextView *editedTextView;
 
 @end
 

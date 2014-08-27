@@ -19,9 +19,9 @@
 
 #pragma mark - properties overload -
 
-- (NSArray *)imageNames
+- (NSArray *)images
 {
-    if (_images){
+    if (!_images){
         int imagesCount = 5;
         
         NSMutableArray *addedImages = [NSMutableArray arrayWithCapacity:imagesCount];
@@ -133,10 +133,28 @@
     CGRect viewFrame = self.changeImageButton.frame;
     UIView *aView = [[UIView alloc] initWithFrame: viewFrame];
     aView.backgroundColor = [UIColor yellowColor];
-    [self.view addSubview:aView];
+    [self.view insertSubview:aView belowSubview:self.changeImageButton];//:aView];
 }
 
 #pragma mark - actions -
+
+- (IBAction)changeImageButtonPressedDown:(UIButton *)sender
+{
+    //determine sender
+    if (sender == self.changeImageButton){
+        
+    }
+    if ([sender isKindOfClass:[UIButton class]]){
+        
+    }
+    if ([sender respondsToSelector:@selector(viewDidLoad)]){
+        
+    }
+    NSLog(@"%@",[sender class]);
+    //RGB 0 - 1. 255 255 255.
+    [sender setTitleColor:[UIColor colorWithRed:255.0 / 255.0 green:1.0 / 255 blue:1.0 / 255 alpha:1]
+                 forState:UIControlStateHighlighted];
+}
 
 - (IBAction)addTextButtonPressed:(UIButton *)sender
 {
@@ -150,4 +168,10 @@
 #warning implement this
 }
 
+- (IBAction)changeImageButtonTouchUp:(UIButton *)sender
+{
+    int imageIndex = arc4random() % 5;
+    
+    self.imageView.image = self.images[imageIndex];
+}
 @end
