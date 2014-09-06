@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>892E7F62-71AB-494B-A5EE-BE0D7235FA63</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ViewControllerLifeCycle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7D6DEC18-EB6C-4B8B-B118-921B5C7A4A80</key>
+		<string>https://github.com/Kudrinetskiy/Lesson2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ViewControllerLifeCycle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7D6DEC18-EB6C-4B8B-B118-921B5C7A4A80</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Kudrinetskiy/Lesson2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7D6DEC18-EB6C-4B8B-B118-921B5C7A4A80</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7D6DEC18-EB6C-4B8B-B118-921B5C7A4A80</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lesson2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84AACBDE19B8A34E00C7A5BB /* NSAttributedString+StringByAddingString.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AACBDD19B8A34E00C7A5BB /* NSAttributedString+StringByAddingString.m */; };
 		FEDA0A3F19AE529200BAD59B /* UIColor+PSRRandomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA0A3E19AE529200BAD59B /* UIColor+PSRRandomColors.m */; };
 		FEDA0A4219AE57A400BAD59B /* PSRNamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA0A4119AE57A400BAD59B /* PSRNamesViewController.m */; };
 		FEDA0A4519AE598100BAD59B /* PSRCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA0A4419AE598100BAD59B /* PSRCustomTableViewCell.m */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84AACBDC19B8A34E00C7A5BB /* NSAttributedString+StringByAddingString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+StringByAddingString.h"; sourceTree = "<group>"; };
+		84AACBDD19B8A34E00C7A5BB /* NSAttributedString+StringByAddingString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+StringByAddingString.m"; sourceTree = "<group>"; };
 		FEDA0A3D19AE529200BAD59B /* UIColor+PSRRandomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PSRRandomColors.h"; sourceTree = "<group>"; };
 		FEDA0A3E19AE529200BAD59B /* UIColor+PSRRandomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PSRRandomColors.m"; sourceTree = "<group>"; };
 		FEDA0A4019AE57A400BAD59B /* PSRNamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRNamesViewController.h; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				FEDA0A4119AE57A400BAD59B /* PSRNamesViewController.m */,
 				FEDA0A3D19AE529200BAD59B /* UIColor+PSRRandomColors.h */,
 				FEDA0A3E19AE529200BAD59B /* UIColor+PSRRandomColors.m */,
+				84AACBDC19B8A34E00C7A5BB /* NSAttributedString+StringByAddingString.h */,
+				84AACBDD19B8A34E00C7A5BB /* NSAttributedString+StringByAddingString.m */,
 				FEEB950119AD38F00072B95C /* ViewControllerLifeCycle */,
 				FEEB951819AD38F00072B95C /* ViewControllerLifeCycleTests */,
 				FEEB950019AD38F00072B95C /* Products */,
@@ -263,6 +268,7 @@
 				FEDA0A4519AE598100BAD59B /* PSRCustomTableViewCell.m in Sources */,
 				FEEB950B19AD38F00072B95C /* PSRAlotOfControlsViewController.m in Sources */,
 				FEEB950819AD38F00072B95C /* AppDelegate.m in Sources */,
+				84AACBDE19B8A34E00C7A5BB /* NSAttributedString+StringByAddingString.m in Sources */,
 				FEEB950519AD38F00072B95C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

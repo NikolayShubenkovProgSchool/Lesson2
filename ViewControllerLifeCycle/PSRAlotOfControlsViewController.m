@@ -8,6 +8,7 @@
 
 #import "PSRAlotOfControlsViewController.h"
 #import "UIColor+PSRRandomColors.h"
+#import "NSAttributedString+StringByAddingString.h"
 
 #import "PSRNamesViewController.h"
 
@@ -181,24 +182,9 @@
     }
     
     UIColor *stringColor = self.switchControl.on ? [UIColor psr_randomColor] : [UIColor blackColor];
-    self.editedTextView.attributedText = [self attributedString:self.editedTextView.attributedText
-                                                 byAddingString:textToAdd
-                                                 withAttributes:@{
-                                                                  NSForegroundColorAttributeName : stringColor
+    self.editedTextView.attributedText = [self.editedTextView.attributedText psr_attributedStringByAddingString:textToAdd withAttributes:@{
+                                                                  NSForegroundColorAttributeName: stringColor
                                                                   }];
-}
-
-- (NSAttributedString *)attributedString:(NSAttributedString *)attributedString byAddingString:(NSString *)string withAttributes:(NSDictionary *)attributes
-{
-    if(!string){
-        return attributedString;;
-    }
-    NSMutableAttributedString *referenceString = [attributedString mutableCopy];
-    if (!referenceString){
-        referenceString = [NSMutableAttributedString new];
-    }
-    [referenceString appendAttributedString:[[NSAttributedString alloc]initWithString:string attributes:attributes]];
-    return [referenceString copy];
 }
 
 #pragma mark - UITextView Delegate
